@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+  <div data-role="header">
+		<h1><img src="jquery-mobile/logo_mascaradelatex.png"></h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Hombres</a></li>
+            <li><a href="#page3">Mujeres</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de pagina</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Hombres</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#CAMISAS">Camisas</a></li>
+            <li><a href="#TENIS">Tenis</a></li>
+            <li><a href="#SUDA">Sudaderas</a></li>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Mujeres</h1>
+	</div>
+	<div data-role="content">
+		<ul data-role="listview">
+			<li><a href="#BLUSAS">Blusas</a></li>
+            <li><a href="#TENIS2">Tenis</a></li>	
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+				
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Página cuatro</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+<div data-role="page" id="CAMISAS">
+	<div data-role="header">
+		<h1>Camisas</h1>
+	</div>
+	<div data-role="content">	
+		Proximamente...		
+	</div>
+</div>
+<div data-role="page" id="TENIS">
+	<div data-role="header">
+		<h1>Tenis</h1>
+	</div>
+	<div data-role="content">	
+		Proximamente...		
+	</div>
+</div>
+ <div data-role="page" id="SUDA">
+	<div data-role="header">
+		<h1>Sudaderas</h1>
+	</div>
+	<div data-role="content">	
+		Proximamente...		
+	</div>
+</div>
+<div data-role="page" id="TENIS2">
+	<div data-role="header">
+		<h1>Tenis</h1>
+	</div>
+	<div data-role="content">	
+		Proximamente...		
+	</div>
+</div>
+<div data-role="page" id="BLUSAS">
+	<div data-role="header">
+		<h1>Blusas</h1>
+	</div>
+	<div data-role="content">	
+		Proximamente...		
+	</div>
+</div>
+</body>
+</html>
